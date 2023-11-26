@@ -1,0 +1,17 @@
+{
+    "name": "Links",
+    "version": "1",
+    "description": "Search with more parameters",
+    "manifest_version": 3,
+    "author": "Dwayne Dsouza",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+      },
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
